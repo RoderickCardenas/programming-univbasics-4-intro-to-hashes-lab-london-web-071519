@@ -24,6 +24,10 @@ end
 
 def update_counting_hash(hash, key)
 
+hash.each do|key, value|
+puts "#{name}: #{grade}"
+end
+
  if hash[key]
     hash[key]+=1
  else
