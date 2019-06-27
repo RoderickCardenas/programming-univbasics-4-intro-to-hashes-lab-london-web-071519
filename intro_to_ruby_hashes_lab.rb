@@ -23,12 +23,12 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  newHash = {key => 1}
+  
  if hash[key]
     hash[key]+=1
     p hash[key]
  else
     hash[key] = 1
-    p newHash
+    p hash
  end
 end
