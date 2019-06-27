@@ -30,8 +30,8 @@ def update_counting_hash(hash, key)
     hash[key]+=1
     hash.each do|key, value|
     puts "#{key}: 1"
-end
  else
     hash[key] = 1
+ end
  end
 end
