@@ -25,7 +25,7 @@ end
 def update_counting_hash(hash, key)
 
 hash.each do|key, value|
-puts "#{name}: #{grade}"
+puts "#{key}: #{value}"
 end
 
  if hash[key]
